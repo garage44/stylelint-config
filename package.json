@@ -1,0 +1,21 @@
+{
+  "name": "@garage44/stylelint-config",
+  "version": "1.0.0",
+  "description": "Shared stylelint configuration for Garage44 projects",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "stylelint": "^15.0.0"
+  },
+  "dependencies": {
+    "stylelint-config-standard-scss": "^11.1.0",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-scss": "^5.3.1"
+  }
+}
