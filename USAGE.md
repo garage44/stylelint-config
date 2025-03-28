@@ -8,7 +8,7 @@ This document explains how to set up and use the shared stylelint configuration 
 
 ```json
 "devDependencies": {
-  "@garage44/stylelint-config": "> 1",
+  "@garage44/stylelint-config": "latest",
   "stylelint": "^15.10.3"
 }
 ```
@@ -18,7 +18,7 @@ This document explains how to set up and use the shared stylelint configuration 
 ```js
 module.exports = {
   extends: ['@garage44/stylelint-config']
-}
+};
 ```
 
 3. Add a script to your package.json:
